@@ -54,12 +54,14 @@ struct HomeView: View {
                 BottomSheetView(position: $bottomSheetPosition) {
 //                    Text(bottomSheetPosition.rawValue.formatted())
                 } content: {
-                    
+                    ForecastView()
                 }
 
                 
                 // MARK: Tab Bar
-                TabBar(action: {})
+                TabBar(action: {
+                    bottomSheetPosition = .top
+                })
             }
             .navigationBarHidden(true)
         }
