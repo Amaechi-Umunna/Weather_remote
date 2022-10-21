@@ -13,6 +13,7 @@ struct ForecastView: View {
             
         }
         .background(Color.bottomSheetBackground)
+        .background(.ultraThinMaterial)
         .clipShape(RoundedRectangle(cornerRadius: 44))
         .overlay {
             // MARK: Bottom Sheet Separator
@@ -38,6 +39,6 @@ struct ForecastView_Previews: PreviewProvider {
     static var previews: some View {
         ForecastView()
             .background(Color.background)
-            .preferredColorScheme(.dark)
+            .preferredColorScheme(.light)
     }
 }
