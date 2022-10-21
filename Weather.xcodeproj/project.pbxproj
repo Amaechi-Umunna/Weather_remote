@@ -17,6 +17,7 @@
 		58B128422902474A00012791 /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B128412902474A00012791 /* Shapes.swift */; };
 		58B128452902511F00012791 /* BottomSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 58B128442902511F00012791 /* BottomSheet */; };
 		58B12847290254E800012791 /* ForecastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B12846290254E800012791 /* ForecastView.swift */; };
+		58B1284929025E4A00012791 /* Blur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B1284829025E4A00012791 /* Blur.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		58B1283F290242AB00012791 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		58B128412902474A00012791 /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
 		58B12846290254E800012791 /* ForecastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastView.swift; sourceTree = "<group>"; };
+		58B1284829025E4A00012791 /* Blur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blur.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +138,7 @@
 		58B128382900F62300012791 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				58B1284829025E4A00012791 /* Blur.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 			files = (
 				58B128272900F19900012791 /* ContentView.swift in Sources */,
 				58B1283E2900FA1700012791 /* HomeView.swift in Sources */,
+				58B1284929025E4A00012791 /* Blur.swift in Sources */,
 				58B1283A2900F7E900012791 /* Extensions.swift in Sources */,
 				58B128252900F19900012791 /* WeatherApp.swift in Sources */,
 				58B12847290254E800012791 /* ForecastView.swift in Sources */,
