@@ -20,6 +20,7 @@
 		58B1284929025E4A00012791 /* Blur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B1284829025E4A00012791 /* Blur.swift */; };
 		58B1284B2903B2E100012791 /* SegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B1284A2903B2E100012791 /* SegmentedControl.swift */; };
 		58B1284D2904044500012791 /* ForecastModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B1284C2904044500012791 /* ForecastModel.swift */; };
+		58B1284F29063FA800012791 /* ForecastCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B1284E29063FA800012791 /* ForecastCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		58B1284829025E4A00012791 /* Blur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blur.swift; sourceTree = "<group>"; };
 		58B1284A2903B2E100012791 /* SegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControl.swift; sourceTree = "<group>"; };
 		58B1284C2904044500012791 /* ForecastModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastModel.swift; sourceTree = "<group>"; };
+		58B1284E29063FA800012791 /* ForecastCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 			children = (
 				58B1284829025E4A00012791 /* Blur.swift */,
 				58B1284A2903B2E100012791 /* SegmentedControl.swift */,
+				58B1284E29063FA800012791 /* ForecastCard.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58B1284F29063FA800012791 /* ForecastCard.swift in Sources */,
 				58B128272900F19900012791 /* ContentView.swift in Sources */,
 				58B1284B2903B2E100012791 /* SegmentedControl.swift in Sources */,
 				58B1283E2900FA1700012791 /* HomeView.swift in Sources */,
