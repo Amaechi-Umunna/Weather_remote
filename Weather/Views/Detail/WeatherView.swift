@@ -2,7 +2,7 @@
 //  WeatherView.swift
 //  Weather
 //
-//  Created by Amaechi Chukwu on 24/10/2022.
+//  Created by Amaechi Chukwu on 25/10/2022.
 //
 
 import SwiftUI
@@ -16,7 +16,7 @@ struct WeatherView: View {
         }
         .overlay {
             // MARK: Navigation Bar
-            
+            NavigationBar()
         }
         .navigationBarHidden(true)
     }
@@ -25,5 +25,6 @@ struct WeatherView: View {
 struct WeatherView_Previews: PreviewProvider {
     static var previews: some View {
         WeatherView()
+            .preferredColorScheme(.dark)
     }
 }
